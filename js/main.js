@@ -26,7 +26,7 @@ function logarNaPagina(event) {
     const emailCadastrado = localStorage.getItem('emailUsuario')
     const senhaCadastrada = localStorage.getItem('senhaUsuario')
     if (email === emailCadastrado && senha === senhaCadastrada) {
-        document.location.href = "cadastro.html"
+        document.location.href = "../index.html"
     } else {
         alert('Email ou senha incorretos!')
     }

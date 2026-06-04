@@ -56,7 +56,7 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 #container:hover {
-    transform: translateY(-10px);
+    transform: translateY(-1px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
@@ -169,7 +169,7 @@ input {
     transition: transform 0.3s ease, box-shawdow 0.3s ease;
 }
 input:hover{
-     transform: translateY(-5px);
+     transform: translateY(-1px);
     box-shadow: 0 10px 20px #a0c9eb;
 }
 
@@ -202,7 +202,7 @@ input:hover{
 ========================= */
 .btn-entrar:hover {
     background-color: #1987e0;
-     transform: translateY(-5px);
+     transform: translateY(-2px);
     box-shadow: 0 10px 20px #a0c9eb;
 }
 
